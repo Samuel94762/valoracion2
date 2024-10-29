@@ -1,0 +1,44 @@
+body {
+background: url(https://github.com/Samuel94762/imghtml/blob/main/fond4.jpg?raw=true); 
+}
+
+h1{
+font-size: 35px;
+text-align: center;
+}
+
+form { 
+margin: auto;
+margin-top: 20px;
+padding: 20px;
+width: 50%;
+background: rgba(0, 102, 102,0.8);
+color: #eee;
+font-family: sans-serif;
+border-radius: 8px;
+border: 3px solid white;
+
+}
+
+input { 
+text-align: center;
+width: 60%;
+border: 2px solid black;
+border-radius: 8px;
+padding: 5px 10px;
+color: #eee;
+}
+
+.date { 
+color: #000;
+font-family: sans-serif;
+}
+
+.submit { 
+color: black;
+font-family: Impact;
+}
+
+#materia1 {
+color: red;
+}

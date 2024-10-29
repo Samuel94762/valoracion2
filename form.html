@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav id="menu">
+
+<form>
+<h1>Formulario datos generales</h1>
+<p class="label">Ingresa tu nombre</p>
+<input type="text" placeholder="Pepe Macías">
+
+<p class="label">Ingresa tu correo electrónico</p>
+<input type="email" placeholder="ejemplo@gmail.com">
+
+<p class="label">Ingresa tu contraseña</p>
+<input type="password">
+
+<p class="label">Ingresa tu fecha de nacimiento</p>
+<input type="date" class="date">
+
+
+<p class="label">Actualmente estoy cursando la(s) materias de:</p>
+<input type="checkbox" id="materia1" name="materia1" value="diseno">
+<label for="materia1"> Diseño web </label><br>
+<input type="checkbox" id="materia2" name="materia2" value="contabilidad">
+<label for="materia2"> Contabilidad </label><br>
+<input type="checkbox" id="materia1" name="materia3" value="sistemas">
+<label for="materia3">  Cálculo I </label><br>
+<br>
+
+<label for="cantidad_cursos">Cursos aprobados en la carrera:</label>
+<input type="number" id="cantidad_cursos" name="quantity" min="1" max="60"><br><br>
+
+
+<label for="conf">Nivel de conformidad con la carrera:</label>
+<input type="range" id="conf" name="conf" min="0" max="100">
+
+<input type="submit" class="submit">
+
+</form>
+
+</nav>
+
+</body>
+</html>
